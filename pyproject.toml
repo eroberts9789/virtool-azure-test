@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "virtool-azure-test"
+version = "0.1.0"
+description = "Testing repo for Azure B2C and Azure SDK"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.7.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
