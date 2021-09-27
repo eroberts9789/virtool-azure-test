@@ -2,7 +2,7 @@ FROM python:3.8-buster
 
 WORKDIR /app
 
-COPY docker /app
+COPY . /app
 
 
 RUN pip install poetry
